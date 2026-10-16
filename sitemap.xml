@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://dumnevijay.github.io/S-S-Home-Gas-Pipe-Fitting-Solutions/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dumnevijay.github.io/S-S-Home-Gas-Pipe-Fitting-Solutions/assets/images/logo.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://dumnevijay.github.io/S-S-Home-Gas-Pipe-Fitting-Solutions/assets/images/work/01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://dumnevijay.github.io/S-S-Home-Gas-Pipe-Fitting-Solutions/assets/images/work/02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://dumnevijay.github.io/S-S-Home-Gas-Pipe-Fitting-Solutions/assets/images/work/03.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>
