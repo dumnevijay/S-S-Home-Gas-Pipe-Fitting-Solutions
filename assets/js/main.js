@@ -22,7 +22,7 @@
     {en:"Hyderabad west and Patancheru side",te:"హైదరాబాద్ పశ్చిమం మరియు పటాన్‌చెరు వైపు",p:[
       ["Gachibowli","గచ్చిబౌలి"],["Financial District","ఫైనాన్షియల్ డిస్ట్రిక్ట్"],["Nanakramguda","నానక్‌రామ్‌గూడ"],["Manikonda","మణికొండ"],["Tellapur","తెల్లాపూర్"],["Kollur","కొల్లూరు"],["Osman Nagar","ఉస్మాన్‌నగర్"],["Kismatpur","కిస్మత్‌పూర్"],["Patancheru","పటాన్‌చెరు"],["Ameenpur","అమీన్‌పూర్"]]}
   ];
-  var PACKS=[["Basic","బేసిక్"],["Standard","స్టాండర్డ్"],["Premium","ప్రీమియం"],["Not sure","తెలియదు"]];
+  var PACKS=[["Residential LPG Pipeline","నివాస LPG పైప్‌లైన్"],["Domestic Gas Reticulation","డొమెస్టిక్ గ్యాస్ రెటిక్యులేషన్"],["Not sure","తెలియదు"]];
   function sp(en,te){return '<span class="en">'+en+'</span><span class="te">'+te+'</span>'}
   var place=document.getElementById("f-place"), pack=document.getElementById("f-pack"), list=document.getElementById("areas-list");
   var html="", opts='<option value="">'+"—"+'</option>';

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dumnevijay.github.io/S-S-Home-Gas-Pipe-Fitting-Solutions/sitemap.xml
+Sitemap: https://gaspipefittingshankarpally.linkpc.net/sitemap.xml
