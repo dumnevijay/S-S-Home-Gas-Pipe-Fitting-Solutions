@@ -63,7 +63,7 @@ header{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff}
 .brand{display:flex;align-items:center;gap:8px;font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1.2rem;text-decoration:none}
 .brand svg{width:26px;height:30px}
 .lang{display:flex;border:2px solid #fff;border-radius:999px;overflow:hidden}
-.lang button{font:600 .9rem "Noto Sans","Noto Sans Telugu",sans-serif;background:transparent;color:#fff;border:0;padding:6px 14px;cursor:pointer}
+.lang button{font:600 .9rem "Noto Sans","Noto Sans Telugu",sans-serif;background:transparent;color:#fff;border:0;padding:8px 16px;min-height:40px;cursor:pointer}
 html[lang="en"] .lang [data-l="en"],html[lang="te"] .lang [data-l="te"]{background:var(--orange);color:#fff}
 .hero{background:linear-gradient(135deg,var(--navy) 0%,#123a86 70%,var(--blue) 100%);color:#fff;padding:56px 0 64px}
 .hero h1{font-size:clamp(2.6rem,9vw,4.6rem);font-weight:700}
@@ -253,6 +253,10 @@ footer .svc{margin:0 0 12px;color:var(--muted);font-size:.92rem}
     </div>
   </div>
 </header>
+
+<script>
+(function(){var r=document.documentElement;function setL(l){r.lang=l;try{localStorage.setItem("lang",l)}catch(e){}if(window.__ssRefresh)window.__ssRefresh();}var s=null;try{s=localStorage.getItem("lang")}catch(e){}var q=(location.search.match(/[?&]lang=(te|en)(?:&|$)/)||[])[1];setL(q||(s==="te"?"te":"en"));document.querySelectorAll(".lang button").forEach(function(b){b.addEventListener("click",function(){setL(b.getAttribute("data-l"))});});})();
+</script>
 
 <main id="top">
 <section class="hero">

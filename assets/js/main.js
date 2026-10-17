@@ -59,6 +59,7 @@
   }
   function link(full){return "https://wa.me/"+NUM+"?text="+encodeURIComponent(msg(full))}
   function refresh(){document.querySelectorAll("a[data-wa]").forEach(function(a){a.href=link(false)})}
+  window.__ssRefresh=refresh;
 
   function setLang(l){root.lang=l;try{localStorage.setItem("lang",l)}catch(e){} refresh()}
   var saved=null;try{saved=localStorage.getItem("lang")}catch(e){}
